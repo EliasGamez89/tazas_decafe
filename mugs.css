@@ -1,0 +1,351 @@
+* {
+
+    margin: 0;
+    font-size: 32px;
+}
+
+a {
+    text-decoration: none;
+    padding: 5px;
+    text-shadow: 2px 2px 8px black;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-size: .7em;
+
+}
+
+input {
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+button {
+    width: 150px;
+    height: 40px;
+    border-radius: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 2px 2px 15px;
+}
+
+
+
+
+
+a:hover {
+    text-shadow: 2px 2px 10px rgb(255, 255, 255);
+}
+
+img {
+    animation-name: delay-img;
+    animation-duration: 3.5s;
+    height: 250px;
+    width: 70%;
+}
+
+img:hover {
+    height: 260px;
+    width: 71%;
+}
+
+@keyframes delay-img {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+#icon-header {
+    height: 45px;
+    width: auto;
+}
+
+h1 {
+    font-size: 1.2em;
+
+}
+
+#arrivals {
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px 5px black;
+    background-color: rgb(167, 253, 127);
+    background-image: url(../projecto1-Ucamp/images/coffee-background2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    padding: 100px;
+    box-shadow: 2px 8px 10px grey;
+    height: 600px fit-content;
+
+}
+
+
+
+li {
+    list-style-type: none;
+    display: inline;
+    padding: 15px;
+
+}
+
+
+p {
+    font-size: .9em;
+}
+
+
+
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+
+}
+
+
+.header-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    width: auto;
+    height: fit-content;
+    background-color:rgb(167, 253, 127);
+}
+
+
+.header-item1,
+.header-item2,
+.header-item3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+}
+
+
+/* Main content here.....!!!! */
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: minmax(150px auto) auto 400px;
+    gap: 5px;
+    background-color: rgba(255, 255, 255, 0.274);
+
+
+}
+
+
+
+
+
+.main-grid-item1 {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 25px;
+    grid-area: 1 / 1 / 2 / 4;
+    height: min-content;
+    width: auto;
+
+}
+
+/* sub grid for .main-grid-item */
+.jumbotron {
+    position: relative;
+    height: 650px;
+    overflow: hidden;
+    text-align: center;
+    padding: 50px;
+    font-size: 50px;
+    box-shadow: 2px 0px 10px;
+    border-radius: 5px;
+    
+}
+
+.jumbotron video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    border-radius: 5px;
+
+}
+
+/* sub  ends here */
+.main-grid-item2 {
+    grid-area: 2 / 1 / 3 / 2;
+    box-shadow: 2px 2px 15px;
+    margin: 10px;
+    padding: 1px;
+    border-radius: 15px;
+
+}
+
+.main-grid-item3 {
+    grid-area: 2 / 2 / 3 / 3;
+    box-shadow: 2px 2px 15px;
+    margin: 10px;
+    padding: 1px;
+    border-radius: 15px;
+
+
+}
+
+.main-grid-item4 {
+    grid-area: 3/ 1 / 4 / 2;
+    box-shadow: 2px 2px 15px;
+    margin: 10px;
+    padding: 1px;
+    border-radius: 15px;
+
+
+
+}
+
+.sidelist {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-grid-item5 {
+    grid-area: 3 / 2 / 4 /3;
+    box-shadow: 2px 2px 15px;
+    margin: 10px;
+    padding: 1px;
+    border-radius: 15px;
+
+
+
+}
+
+.main-grid-item6 {
+    grid-area: 2 / 3 / 4 / 4;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+
+.main-grid-item7 {
+    grid-area: 4 / 2 / 5 /3;
+    box-shadow: 2px 2px 15px;
+    margin: 10px;
+    padding: 1px;
+    border-radius: 15px;
+}
+
+
+.main-grid-item8 {
+    grid-area: 4 / 1 / 5 /2;
+    box-shadow: 2px 2px 15px;
+    margin: 10px;
+    padding: 1px;
+    border-radius: 15px;
+}
+
+
+.price {
+    font-size: .6em;
+    margin-left: 25px;
+}
+
+.description {
+    font-size: .7em;
+    text-decoration: underline;
+    margin-left: 25px;
+    color: red;
+}
+
+.qty{
+    font-size: .5em;
+    color: blue;
+    text-decoration: none;
+    
+}
+
+
+
+.footer {
+    background-color: rgb(167, 253, 127);
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    padding: 30px;
+    justify-content: center;
+    align-content: baseline;
+    margin-top: 50px;
+    
+
+
+}
+
+.footer-flex>ol>li {
+    display: flex;
+    flex-direction: column;
+    font-size: .8em;
+
+
+
+}
+
+#fb-icon {
+    height: 40px;
+    width: 40px;
+}
+
+#insta-icon {
+    height: 40px;
+    width: 40px;
+}
+
+#ytb-icon {
+    height: 40px;
+    width: 40px;
+}
+
+#pin-icon {
+    height: 40px;
+    width: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .main-grid {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .footer-flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
