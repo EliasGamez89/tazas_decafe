@@ -133,7 +133,7 @@ body {
 }
 
 
-/* Main content here.....!!!! */
+
 
 .main-grid {
     display: grid;
@@ -160,7 +160,6 @@ body {
 
 }
 
-/* sub grid for .main-grid-item */
 .jumbotron {
     position: relative;
     height: 650px;
