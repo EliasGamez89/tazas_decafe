@@ -106,7 +106,7 @@ p {
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-   
+
 
 }
 
@@ -120,7 +120,7 @@ body {
     padding: 15px;
     width: auto;
     height: fit-content;
-    background-color:rgb(167, 253, 127);
+    background-color: rgb(167, 253, 127);
 }
 
 
@@ -169,7 +169,7 @@ body {
     font-size: 50px;
     box-shadow: 2px 0px 10px;
     border-radius: 5px;
-    
+
 }
 
 .jumbotron video {
@@ -273,11 +273,11 @@ body {
     color: red;
 }
 
-.qty{
+.qty {
     font-size: .5em;
     color: blue;
     text-decoration: none;
-    
+
 }
 
 
@@ -291,7 +291,7 @@ body {
     justify-content: center;
     align-content: baseline;
     margin-top: 50px;
-    
+
 
 
 }
