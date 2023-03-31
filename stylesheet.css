@@ -348,3 +348,23 @@ body {
     }
 
 }
+
+
+@media only screen and (max-width:600px){
+
+    .main-grid {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .footer-flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-grid {
+        width: 100%;
+    }
+
+}
